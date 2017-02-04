@@ -8,11 +8,8 @@ cd $XDG_RUNTIME_DIR
 pwd
 touch thisfile
 
-if [ $? = 0 ]; then
+if [ $? == 0 ]; then
 	echo "The file is successfully created!"
 else
 	echo "The file is not successfully created!"
 fi
-
-
-
