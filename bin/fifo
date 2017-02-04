@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo "Going to make a directory at: $XDG_RUNTIME_DIR"
+mkdir -p $XDG_RUNTIME_DIR
+
+echo "Create a file at the location..."
+cd $XDG_RUNTIME_DIR
+pwd
+touch thisfile
+
+
+
