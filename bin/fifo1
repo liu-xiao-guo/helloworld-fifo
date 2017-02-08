@@ -6,7 +6,7 @@ mkdir -p $XDG_RUNTIME_DIR
 echo "Create a file at the location..."
 cd $XDG_RUNTIME_DIR
 pwd
-touch thisfile
+touch thisfile1
 
 if [ $? == 0 ]; then
 	echo "The file is successfully created!"
@@ -16,10 +16,10 @@ fi
 
 cd /tmp
 pwd
-echo "Haha" > test.txt
+echo "Haha" > test1.txt
 
 if [ $? == 0 ]; then
-	echo "The test.txt file is successfully created!"
+	echo "The test1.txt file is successfully created!"
 else
-	echo "The test.txt file is not successfully created!"
+	echo "The test1.txt file is not successfully created!"
 fi

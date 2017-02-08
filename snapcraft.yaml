@@ -16,6 +16,10 @@ icon: icon.png
 apps:
  fifo:
    command: bin/fifo
+ fifo1:
+   command: bin/fifo1
+ readfifo:
+   command: bin/readfifo
  env:
    command: bin/env
  evil:
